@@ -56,7 +56,6 @@ const VerticalNav = () => {
             className={`nav-link capitalize text-xs tracking-wider transition-all duration-300 ${
               activeSection === item.id ? "nav-link-active font-bold" : "opacity-60 hover:opacity-100"
             }`}
-            style={{ writingMode: "vertical-rl" }}
           >
             {item.label}
           </button>
