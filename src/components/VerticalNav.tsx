@@ -48,23 +48,17 @@ const VerticalNav = () => {
       </div>
 
       {/* Nav links */}
-      <div className="flex flex-col items-end gap-6 pr-4">
+      <div className="flex flex-col items-center gap-6">
         {navItems.map((item) => (
           <button
             key={item.id}
             onClick={() => scrollToSection(item.id)}
-            className={`nav-link flex items-center gap-2 ${
-              activeSection === item.id ? "nav-link-active" : ""
+            className={`nav-link capitalize text-xs tracking-wider transition-all duration-300 ${
+              activeSection === item.id ? "nav-link-active font-bold" : "opacity-60 hover:opacity-100"
             }`}
+            style={{ writingMode: "vertical-rl" }}
           >
-            <span
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                activeSection === item.id
-                  ? "bg-primary scale-100"
-                  : "bg-nav-foreground/30 scale-75"
-              }`}
-            />
-            <span className="hidden lg:inline">{item.label}</span>
+            {item.label}
           </button>
         ))}
       </div>
