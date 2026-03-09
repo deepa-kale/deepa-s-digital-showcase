@@ -41,7 +41,7 @@ const VerticalNav = () => {
   };
 
   return (
-    <nav className="fixed right-0 top-0 h-screen w-20 lg:w-24 bg-nav flex flex-col items-center justify-between py-6 z-50">
+    <nav className="fixed right-0 top-0 h-screen w-28 lg:w-32 bg-nav flex flex-col items-center justify-between py-6 z-50">
       {/* Small avatar at top */}
       <div className="w-12 h-12 rounded-lg overflow-hidden bg-background/10">
         <img src={avatarSmall} alt="Avatar" className="w-full h-full object-cover" />

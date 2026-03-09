@@ -13,20 +13,8 @@ const HeroSection = () => {
       id="home"
       className="section-container relative flex items-center justify-center min-h-screen overflow-hidden bg-pattern"
     >
-      {/* Background dots decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(15)].map((_, i) => (
-          <div
-            key={i}
-            className="connection-dot animate-pulse"
-            style={{
-              left: `${Math.random() * 80}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 2}s`,
-            }}
-          />
-        ))}
-      </div>
+
+
 
       <div className="max-w-3xl mx-auto w-full pr-24 lg:pr-32 text-center flex flex-col items-center gap-6">
         {/* Avatar */}
