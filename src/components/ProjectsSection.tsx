@@ -25,6 +25,14 @@ const projects = [
     date: "January 2025",
     githubUrl: "https://github.com/deepa-kale",
   },
+  {
+    title: "TODO - Be Productive",
+    description:
+      "A simple yet effective task management system with a clean, intuitive interface to add, track, edit, and delete daily tasks. Features a welcoming front page greeting users before they dive in.",
+    techStack: ["Next.js", "React", "CSS", "JavaScript", "Google Fonts"],
+    date: "",
+    githubUrl: "https://github.com/deepa-kale",
+  },
 ];
 
 const ProjectsSection = () => {
