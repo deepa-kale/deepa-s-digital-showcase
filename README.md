@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
 
-## Project info
+# Deepa Kale – Portfolio Website
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Welcome to my personal portfolio website!  
+This project showcases my background, technical skills, projects, and experience as a Computer Science student and developer.
 
-## How can I edit this code?
+## Live Website
 
-There are several ways of editing your application.
+https://hello-deepa-folio.lovable.app/
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## About the Project
 
-Changes made via Lovable will be committed automatically to this repo.
+This portfolio was built to create a clean, modern, and responsive space to present:
 
-**Use your preferred IDE**
+- Technical projects
+- Programming skills
+- Resume/CV
+- Experience and coursework
+- Contact information
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The design focuses on accessibility, responsiveness, and smooth user interaction.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Technologies Used
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project was built using:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Features
+
+- Responsive design for desktop and mobile
+- Modern UI with smooth layout and styling
+- Project showcase section
+- Resume/CV page
+- Skills and technologies section
+- Contact section
+- Fast development with Vite
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/deepa-kale/deepa-s-digital-showcase.git
 ```
 
-**Edit a file directly in GitHub**
+### Navigate to the Project Directory
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+cd deepa-s-digital-showcase
+```
 
-**Use GitHub Codespaces**
+### Install Dependencies
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm install
+```
 
-## What technologies are used for this project?
+### Start the Development Server
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm run dev
+```
