@@ -1,4 +1,3 @@
-
 # Deepa Kale – Portfolio Website
 
 Welcome to my personal portfolio website!  
@@ -39,12 +38,12 @@ This project was built using:
 ## Features
 
 - Responsive design for desktop and mobile
-- Modern UI with smooth layout and styling
-- Project showcase section
+- Modern UI with clean layouts and styling
+- Interactive project showcase section
 - Resume/CV page
 - Skills and technologies section
 - Contact section
-- Fast development with Vite
+- Fast development environment powered by Vite
 
 ---
 
@@ -73,3 +72,50 @@ npm install
 ```bash
 npm run dev
 ```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```bash
+src/
+├── components/
+├── pages/
+├── assets/
+├── hooks/
+├── lib/
+├── styles/
+└── App.tsx
+```
+
+---
+
+## Future Improvements
+
+- Add dark/light mode toggle
+- Improve animations and transitions
+- Expand accessibility support
+- Add backend support for contact form submissions
+- Add a blog or project write-up section
+- Continue refining responsive layouts
+
+---
+
+## Contact
+
+- GitHub: https://github.com/deepa-kale
+- Portfolio: https://hello-deepa-folio.lovable.app/
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
