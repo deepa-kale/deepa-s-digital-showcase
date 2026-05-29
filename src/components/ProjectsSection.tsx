@@ -33,6 +33,14 @@ const projects = [
     date: "",
     githubUrl: "https://github.com/deepa-kale",
   },
+  {
+    title: "F1 Points Predictor",
+    description:
+      "Built a portfolio-style Streamlit app that predicts a driver's expected Formula 1 race points from race, driver, constructor, and qualifying position using historical F1 data and a baseline machine learning model. Includes end-to-end data preparation, model training, saved-model inference, and an interactive dashboard for testing predictions locally.",
+    techStack: ["Python", "Streamlit", "Machine Learning", "Pandas", "scikit-learn"],
+    date: "",
+    githubUrl: "https://github.com/deepa-kale/F1-points-predictor",
+  },
 ];
 
 const ProjectsSection = () => {
