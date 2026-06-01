@@ -31,10 +31,12 @@ const HeroSection = () => {
           </span>
 
           <h1 className="hero-title">
-            Computer Science Graduate Building{" "}
-            <span className="text-hero-accent">Data-Driven Applications</span>{" "}
-            and ML Projects
+            Hello, I'm <span className="text-hero-accent">Deepa Kale</span>
           </h1>
+
+          <h2 className="text-2xl md:text-3xl font-semibold text-foreground/90 leading-snug">
+            Computer Science Graduate Building Data-Driven Applications and ML Projects
+          </h2>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
             I'm a May 2026 Computer Science graduate focused on software
