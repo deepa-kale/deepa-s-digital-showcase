@@ -11,6 +11,14 @@ type Project = {
 
 const featuredProjects: Project[] = [
   {
+    title: "ApplyPilotAI",
+    description:
+      "AI-powered job application tracker that helps users organize applications, analyze job descriptions with Claude, manage resume versions, and track follow-ups. Includes end-to-end workflow design and an interactive dashboard for streamlining the job search.",
+    highlights: ["Claude-assisted job analysis", "Resume version management", "Application status tracking"],
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Claude AI"],
+    githubUrl: "https://deepa-kale.github.io/ApplyPilot-ai/",
+  },
+  {
     title: "F1 Points Predictor",
     description:
       "Streamlit machine learning app that predicts a driver's expected Formula 1 race points from race, team, driver, and qualifying position. Includes data preparation, baseline model training, saved-model inference, and an interactive dashboard.",
