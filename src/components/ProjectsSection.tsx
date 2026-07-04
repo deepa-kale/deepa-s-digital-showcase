@@ -27,13 +27,6 @@ const featuredProjects: Project[] = [
     date: "December 2025",
     githubUrl: "https://github.com/deepa-kale",
   },
-    description:
-      "Senior capstone detecting cyber threats in large-scale TCP traffic logs using a CNN for anomaly classification of the three-way handshake. Built preprocessing pipelines and a CLI that outputs analyst-friendly reports.",
-    highlights: ["~94–96% training accuracy", "CNN anomaly classifier", "CLI report tool"],
-    techStack: ["Python", "TensorFlow", "CNN", "Pandas", "NumPy"],
-    date: "December 2025",
-    githubUrl: "https://github.com/deepa-kale",
-  },
   {
     title: "Hurricane Relief System — SQL Project",
     description:
