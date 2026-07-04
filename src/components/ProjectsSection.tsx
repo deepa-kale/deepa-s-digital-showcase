@@ -19,15 +19,14 @@ const featuredProjects: Project[] = [
     githubUrl: "https://deepa-kale.github.io/ApplyPilot-ai/",
   },
   {
-    title: "F1 Points Predictor",
-    description:
-      "Streamlit machine learning app that predicts a driver's expected Formula 1 race points from race, team, driver, and qualifying position. Includes data preparation, baseline model training, saved-model inference, and an interactive dashboard.",
-    highlights: ["End-to-end ML pipeline", "Interactive dashboard", "Saved-model inference"],
-    techStack: ["Python", "Streamlit", "scikit-learn", "Pandas", "NumPy"],
-    githubUrl: "https://github.com/deepa-kale/F1-points-predictor",
-  },
-  {
     title: "YapGPT — TCP Cyber-Threat Detection System",
+    description:
+      "Senior capstone detecting cyber threats in large-scale TCP traffic logs using a CNN for anomaly classification of the three-way handshake. Built preprocessing pipelines and a CLI that outputs analyst-friendly reports.",
+    highlights: ["~94–96% training accuracy", "CNN anomaly classifier", "CLI report tool"],
+    techStack: ["Python", "TensorFlow", "CNN", "Pandas", "NumPy"],
+    date: "December 2025",
+    githubUrl: "https://github.com/deepa-kale",
+  },
     description:
       "Senior capstone detecting cyber threats in large-scale TCP traffic logs using a CNN for anomaly classification of the three-way handshake. Built preprocessing pipelines and a CLI that outputs analyst-friendly reports.",
     highlights: ["~94–96% training accuracy", "CNN anomaly classifier", "CLI report tool"],
