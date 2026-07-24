@@ -11,14 +11,6 @@ type Project = {
 
 const featuredProjects: Project[] = [
   {
-    title: "ApplyPilotAI",
-    description:
-      "AI-powered job application tracker that helps users organize applications, analyze job descriptions with Claude, manage resume versions, and track follow-ups. Includes end-to-end workflow design and an interactive dashboard for streamlining the job search.",
-    highlights: ["Claude-assisted job analysis", "Resume version management", "Application status tracking"],
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Claude AI"],
-    githubUrl: "https://deepa-kale.github.io/ApplyPilot-ai/",
-  },
-  {
     title: "YapGPT — TCP Cyber-Threat Detection System",
     description:
       "Senior capstone detecting cyber threats in large-scale TCP traffic logs using a CNN for anomaly classification of the three-way handshake. Built preprocessing pipelines and a CLI that outputs analyst-friendly reports.",
@@ -26,14 +18,6 @@ const featuredProjects: Project[] = [
     techStack: ["Python", "TensorFlow", "CNN", "Pandas", "NumPy"],
     date: "December 2025",
     githubUrl: "https://github.com/deepa-kale",
-  },
-  {
-    title: "Lexer & Syntax Parser",
-    description:
-      "Compiler front-end in C featuring a lexical analyzer that tokenizes source code with regular expressions and a recursive descent parser that validates tokens against BNF grammar rules. Supports arithmetic expressions, conditional and compound statements, with fault-tolerant error detection. Developed and tested on a university HPCC cluster via SSH, compiled with GCC.",
-    highlights: ["Regex-based tokenizer", "Recursive descent parser", "Fault-tolerant error handling"],
-    techStack: ["C", "GCC", "Unix", "BNF Grammar"],
-    githubUrl: "https://github.com/deepa-kale/Lexer-Syntax-parser",
   },
   {
     title: "Hurricane Relief System — SQL Project",
@@ -44,24 +28,39 @@ const featuredProjects: Project[] = [
     date: "January 2025",
     githubUrl: "https://github.com/deepa-kale",
   },
+  {
+    title: "Full-stack E-Commerce Web App",
+    description:
+      "Full-stack e-commerce app with product browsing, cart management, checkout flow, and a Node/Express backend with MongoDB. Focused on clean UI structure and end-to-end implementation.",
+    highlights: ["Product & cart management", "Checkout flow", "Node/Express + MongoDB backend"],
+    techStack: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    date: "January 2025",
+    githubUrl: "https://github.com/deepa-kale",
+  },
+  {
+    title: "Lexer & Syntax Parser",
+    description:
+      "Compiler front-end in C featuring a lexical analyzer that tokenizes source code with regular expressions and a recursive descent parser that validates tokens against BNF grammar rules. Supports arithmetic expressions, conditional and compound statements, with fault-tolerant error detection. Developed and tested on a university HPCC cluster via SSH, compiled with GCC.",
+    highlights: ["Regex-based tokenizer", "Recursive descent parser", "Fault-tolerant error handling"],
+    techStack: ["C", "GCC", "Unix", "BNF Grammar"],
+    githubUrl: "https://github.com/deepa-kale/Lexer-Syntax-parser",
+  },
 ];
 
 const additionalProjects: Project[] = [
+  {
+    title: "ApplyPilotAI",
+    description:
+      "AI-powered job application tracker that helps users organize applications, analyze job descriptions with Claude, manage resume versions, and track follow-ups in one interactive dashboard.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Claude AI"],
+    githubUrl: "https://deepa-kale.github.io/ApplyPilot-ai/",
+  },
   {
     title: "Water Intake Tracker (watchOS)",
     description:
       "Standalone watchOS app in SwiftUI for tracking daily water intake. Includes first-launch onboarding for a personalized hydration goal, one-tap logging with an animated progress ring, undo support, a 7-day history view, and local daily reminders via UserNotifications. Data persists on-device with UserDefaults — no backend required.",
     techStack: ["Swift", "SwiftUI", "watchOS", "UserNotifications"],
     githubUrl: "https://github.com/deepa-kale/water-intake-tracker",
-  },
-
-  {
-    title: "Full-stack E-Commerce Web App",
-    description:
-      "Full-stack e-commerce app with product browsing, cart management, checkout flow, and a Node/Express backend with MongoDB. Focused on clean UI structure and end-to-end implementation.",
-    techStack: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
-    date: "January 2025",
-    githubUrl: "https://github.com/deepa-kale",
   },
   {
     title: "TODO — Be Productive",
@@ -71,6 +70,7 @@ const additionalProjects: Project[] = [
     githubUrl: "https://github.com/deepa-kale",
   },
 ];
+
 
 const GitHubIcon = () => (
   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
