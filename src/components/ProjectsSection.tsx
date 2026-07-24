@@ -28,6 +28,14 @@ const featuredProjects: Project[] = [
     githubUrl: "https://github.com/deepa-kale",
   },
   {
+    title: "Lexer & Syntax Parser",
+    description:
+      "Compiler front-end in C featuring a lexical analyzer that tokenizes source code with regular expressions and a recursive descent parser that validates tokens against BNF grammar rules. Supports arithmetic expressions, conditional and compound statements, with fault-tolerant error detection. Developed and tested on a university HPCC cluster via SSH, compiled with GCC.",
+    highlights: ["Regex-based tokenizer", "Recursive descent parser", "Fault-tolerant error handling"],
+    techStack: ["C", "GCC", "Unix", "BNF Grammar"],
+    githubUrl: "https://github.com/deepa-kale/Lexer-Syntax-parser",
+  },
+  {
     title: "Hurricane Relief System — SQL Project",
     description:
       "Normalized SQL database for managing evacuees, shelters, rescue teams, and volunteers in a disaster-response scenario. Focused on schema design, ER modeling, and structured data management.",
@@ -39,6 +47,14 @@ const featuredProjects: Project[] = [
 ];
 
 const additionalProjects: Project[] = [
+  {
+    title: "Water Intake Tracker (watchOS)",
+    description:
+      "Standalone watchOS app in SwiftUI for tracking daily water intake. Includes first-launch onboarding for a personalized hydration goal, one-tap logging with an animated progress ring, undo support, a 7-day history view, and local daily reminders via UserNotifications. Data persists on-device with UserDefaults — no backend required.",
+    techStack: ["Swift", "SwiftUI", "watchOS", "UserNotifications"],
+    githubUrl: "https://github.com/deepa-kale/water-intake-tracker",
+  },
+
   {
     title: "Full-stack E-Commerce Web App",
     description:
