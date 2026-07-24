@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "LYFE Mentor Program — Whitacre College of Engineering",
     role: "Peer Mentor · Sponsored by ConocoPhillips",
-    period: "Aug 2024 – Present",
+    period: "Aug 2024 – May 2026",
     description: [
       "Mentor first-year engineering students through their transition into the discipline, providing academic guidance and accountability.",
       "Connect mentees with engineering resources, student organizations, and study strategies that improve retention.",
@@ -11,7 +11,7 @@ const experiences = [
   {
     title: "Tech Robotics Association",
     role: "Public Relations Officer",
-    period: "Jun 2023 – Present",
+    period: "Jun 2023 – May 2026",
     description: [
       "Coordinate outreach and volunteer logistics for local robotics events serving K–12 students.",
       "Manage cross-organization communication and partnerships to expand program reach.",
@@ -20,7 +20,7 @@ const experiences = [
   {
     title: "Society of Women Engineers (SWE)",
     role: "Outreach Committee",
-    period: "Aug 2023 – Present",
+    period: "Aug 2023 – May 2026",
     description: [
       "Plan and execute outreach and service events that strengthen SWE's engagement across campus.",
     ],
