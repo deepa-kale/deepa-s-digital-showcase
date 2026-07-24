@@ -11,7 +11,7 @@ const experiences = [
   {
     title: "Tech Robotics Association",
     role: "Public Relations Officer",
-    period: "Jun 2023 – Present",
+    period: "Jun 2023 – May 2026",
     description: [
       "Coordinate outreach and volunteer logistics for local robotics events serving K–12 students.",
       "Manage cross-organization communication and partnerships to expand program reach.",
