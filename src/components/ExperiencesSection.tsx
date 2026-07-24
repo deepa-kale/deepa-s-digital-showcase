@@ -20,7 +20,7 @@ const experiences = [
   {
     title: "Society of Women Engineers (SWE)",
     role: "Outreach Committee",
-    period: "Aug 2023 – Present",
+    period: "Aug 2023 – May 2026",
     description: [
       "Plan and execute outreach and service events that strengthen SWE's engagement across campus.",
     ],
