@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "LYFE Mentor Program — Whitacre College of Engineering",
     role: "Peer Mentor · Sponsored by ConocoPhillips",
-    period: "Aug 2024 – Present",
+    period: "Aug 2024 – May 2026",
     description: [
       "Mentor first-year engineering students through their transition into the discipline, providing academic guidance and accountability.",
       "Connect mentees with engineering resources, student organizations, and study strategies that improve retention.",
