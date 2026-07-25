@@ -49,13 +49,6 @@ const featuredProjects: Project[] = [
 
 const additionalProjects: Project[] = [
   {
-    title: "ApplyPilotAI",
-    description:
-      "AI-powered job application tracker that helps users organize applications, analyze job descriptions with Claude, manage resume versions, and track follow-ups in one interactive dashboard.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Claude AI"],
-    githubUrl: "https://deepa-kale.github.io/ApplyPilot-ai/",
-  },
-  {
     title: "Water Intake Tracker (watchOS)",
     description:
       "Standalone watchOS app in SwiftUI for tracking daily water intake. Includes first-launch onboarding for a personalized hydration goal, one-tap logging with an animated progress ring, undo support, a 7-day history view, and local daily reminders via UserNotifications. Data persists on-device with UserDefaults — no backend required.",
